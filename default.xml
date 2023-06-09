@@ -8,7 +8,7 @@ Licensed under the MIT license.
   <remote fetch="https://github.com/rios240" name="cerberus-mctp"/>
   <remote fetch="https://github.com/ARMmbed" name="mbedtls"/>
 
-  <project remote="cerberus-mctp" revision="main" name="Project-Cerberus" path="cerberus-mctp"/>
-  <project remote="mbedtls" revision="3f8d78411a26e833db18d9fbde0e2f0baeda87f0" name="mbedtls" path="cerberus/external/mbedtls-2.17.0"/>
+  <project remote="cerberus-mctp" revision="main" name="cerberus-mctp" path="cerberus-mctp"/>
+  <project remote="mbedtls" revision="3f8d78411a26e833db18d9fbde0e2f0baeda87f0" name="mbedtls" path="cerberus-mctp/external/mbedtls-2.17.0"/>
 
 </manifest>

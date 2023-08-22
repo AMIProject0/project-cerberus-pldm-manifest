@@ -10,7 +10,6 @@ Licensed under the MIT license.
   <remote fetch="https://github.com/ARMmbed" name="mbedtls"/>
 
   <project remote="cerberus-mctp" revision="master" name="cerberus-mctp" path="cerberus-mctp"/>
-  <project remote="libpldm-cerberus" revision="main" name="libpldm-cerberus" path="libpldm-cerberus"/>
   <project remote="mbedtls" revision="3f8d78411a26e833db18d9fbde0e2f0baeda87f0" name="mbedtls" path="cerberus-mctp/external/mbedtls-2.17.0"/>
   <project remote="libpldm-cerberus" revision="main" name="libpldm" path="cerberus-mctp/external/libpldm"/>
 

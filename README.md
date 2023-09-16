@@ -50,7 +50,7 @@ This will the typical method for initializing the local repository.
 ```bash
 mkdir Project-Cerberus
 cd Project-Cerberus
-repo init -u https://github.com/Azure/Project-Cerberus-manifest.git -b master
+repo init -u https://github.com/rios240/cerberus-pldm-manifest.git -b main
 repo sync
 ```
 

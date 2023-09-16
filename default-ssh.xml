@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright (c) Microsoft Corporation. All rights reserved.
+Licensed under the MIT license.
+-->
+<manifest>
+
+  <remote fetch="ssh://git@github.com" name="cerberus-server"/>
+  <remote fetch="ssh://git@github.com" name="cerberus-client"/>
+  <remote fetch="ssh://git@github.com" name="openbmc-libpldm"/>
+  <remote fetch="ssh://git@github.com" name="intelbmc-libpldm"/>
+  <remote fetch="https://github.com/ARMmbed" name="mbedtls"/>
+
+  <project remote="cerberus-server" revision="master" name="rios240/Cerberus-PLDM-Server" path="Cerberus-PLDM-Server"/>
+  <project remote="cerberus-client" revision="master" name="rios240/Cerberus-PLDM-Client" path="Cerberus-PLDM-Client"/>
+  <project remote="intelbmc-libpldm" revision="main" name="rios240/intelbmc-libpldm" path="Cerberus-PLDM-Server/external/intelbmc-libpldm"/>
+  <project remote="openbmc-libpldm" revision="main" name="rios240/openbmc-libpldm" path="Cerberus-PLDM-Client/external/openbmc-libpldm"/>
+  <project remote="mbedtls" revision="3f8d78411a26e833db18d9fbde0e2f0baeda87f0" name="mbedtls" path="Cerberus-PLDM-Server/external/mbedtls-2.17.0"/>
+  <project remote="mbedtls" revision="3f8d78411a26e833db18d9fbde0e2f0baeda87f0" name="mbedtls" path="Cerberus-PLDM-Client/external/mbedtls-2.17.0"/>
+
+</manifest>

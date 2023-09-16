@@ -6,6 +6,9 @@ provides a mechanism to securely attest to the state of the device firmware.
 
 Details of Project Cerberus's goals and design can be found at https://github.com/opencomputeproject/Project_Olympus/tree/master/Project_Cerberus.
 
+This repository is the container for manifest files used to get PLDM Cerberus source code using the repo tool.
+For source code and project details, go to the main PLDM Project Cerberus repositories at https://github.com/rios240/Cerberus-PLDM-Server and https://github.com/rios240/Cerberus-PLDM-Client.
+
 ## Getting the Source Code
 
 The Cerberus source code relies on some external dependencies and allows for customization and extension to

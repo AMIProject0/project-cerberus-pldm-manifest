@@ -9,6 +9,7 @@ Licensed under the MIT license.
   <remote fetch="https://github.com/rios240" name="cerberus-client"/>
   <remote fetch="https://github.com/rios240" name="openbmc-libpldm"/>
   <remote fetch="https://github.com/rios240" name="intelbmc-libpldm"/>
+  <remote fetch="https://github.com/QuantumLeaps" name="qp/c"/>
   <remote fetch="https://github.com/ARMmbed" name="mbedtls"/>
 
   <project remote="cerberus-server" revision="master" name="Cerberus-PLDM-Server" path="Cerberus-PLDM-Server"/>
@@ -17,5 +18,6 @@ Licensed under the MIT license.
   <project remote="openbmc-libpldm" revision="main" name="openbmc-libpldm" path="Cerberus-PLDM-Client/external/openbmc-libpldm"/>
   <project remote="mbedtls" revision="3f8d78411a26e833db18d9fbde0e2f0baeda87f0" name="mbedtls" path="Cerberus-PLDM-Server/external/mbedtls-2.17.0"/>
   <project remote="mbedtls" revision="3f8d78411a26e833db18d9fbde0e2f0baeda87f0" name="mbedtls" path="Cerberus-PLDM-Client/external/mbedtls-2.17.0"/>
+  <project remote="qp/c" revision="9382ad6aa87e6ddba44aaef5454a3dbb2877a300" name="qpc" path="Cerberus-PLDM-Client/external/qpc"/>
 
 </manifest>

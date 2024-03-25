@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-Copyright (c) Microsoft Corporation. All rights reserved.
-Licensed under the MIT license.
--->
 <manifest>
 
-  <remote fetch="https://github.com/rios240" name="cerberus-server"/>
-  <remote fetch="https://github.com/rios240" name="cerberus-client"/>
-  <remote fetch="https://github.com/rios240" name="openbmc-libpldm"/>
-  <remote fetch="https://github.com/rios240" name="intelbmc-libpldm"/>
-  <remote fetch="https://github.com/QuantumLeaps" name="qp/c"/>
+  <remote fetch="https://github.com/rios240" name="project-cerberus-ami"/>
+  <remote fetch="https://github.com/rios240" name="libpldm"/>
   <remote fetch="https://github.com/ARMmbed" name="mbedtls"/>
 
-  <project remote="cerberus-server" revision="master" name="Cerberus-PLDM-Server" path="Cerberus-PLDM-Server"/>
-  <project remote="cerberus-client" revision="master" name="Cerberus-PLDM-Client" path="Cerberus-PLDM-Client"/>
-  <project remote="intelbmc-libpldm" revision="main" name="intelbmc-libpldm" path="Cerberus-PLDM-Server/external/intelbmc-libpldm"/>
-  <project remote="openbmc-libpldm" revision="main" name="openbmc-libpldm" path="Cerberus-PLDM-Client/external/openbmc-libpldm"/>
-  <project remote="mbedtls" revision="3f8d78411a26e833db18d9fbde0e2f0baeda87f0" name="mbedtls" path="Cerberus-PLDM-Server/external/mbedtls-2.17.0"/>
-  <project remote="mbedtls" revision="3f8d78411a26e833db18d9fbde0e2f0baeda87f0" name="mbedtls" path="Cerberus-PLDM-Client/external/mbedtls-2.17.0"/>
-  <project remote="qp/c" revision="9382ad6aa87e6ddba44aaef5454a3dbb2877a300" name="qpc" path="Cerberus-PLDM-Client/external/qpc"/>
+  <project remote="project-cerberus-ami" revision="master" name="Project-Cerberus-AMI" path="Cerberus-UA"/>
+  <project remote="project-cerberus-ami" revision="master" name="Project-Cerberus-AMI" path="Cerberus-FD"/>
+  <project remote="libpldm" revision="main" name="intelbmc-libpldm" path="Cerberus-UA/external/intelbmc-libpldm"/>
+  <project remote="libpldm" revision="main" name="openbmc-libpldm" path="Cerberus-FD/external/openbmc-libpldm"/>
+  <project remote="mbedtls" revision="3f8d78411a26e833db18d9fbde0e2f0baeda87f0" name="mbedtls" path="Cerberus-UA/external/mbedtls-2.17.0"/>
+  <project remote="mbedtls" revision="3f8d78411a26e833db18d9fbde0e2f0baeda87f0" name="mbedtls" path="Cerberus-FD/external/mbedtls-2.17.0"/>
 
 </manifest>

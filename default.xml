@@ -7,7 +7,7 @@
 
   <project remote="project-cerberus-ami" revision="master" name="Project-Cerberus-AMI" path="Cerberus-UA"/>
   <project remote="project-cerberus-ami" revision="master" name="Project-Cerberus-AMI" path="Cerberus-FD"/>
-  <project remote="libpldm" revision="main" name="intelbmc-libpldm" path="Cerberus-UA/external/intelbmc-libpldm"/>
+  <project remote="libpldm" revision="main" name="openbmc-libpldm" path="Cerberus-UA/external/openbmc-libpldm"/>
   <project remote="libpldm" revision="main" name="openbmc-libpldm" path="Cerberus-FD/external/openbmc-libpldm"/>
   <project remote="mbedtls" revision="3f8d78411a26e833db18d9fbde0e2f0baeda87f0" name="mbedtls" path="Cerberus-UA/external/mbedtls-2.17.0"/>
   <project remote="mbedtls" revision="3f8d78411a26e833db18d9fbde0e2f0baeda87f0" name="mbedtls" path="Cerberus-FD/external/mbedtls-2.17.0"/>

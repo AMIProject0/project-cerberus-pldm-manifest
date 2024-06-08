@@ -8,8 +8,8 @@
   <project remote="project-cerberus-ami" revision="a9b88424111b0cc001f9369dc0a48ee8ecd1b2d8" name="rios240/Project-Cerberus-AMI" path="Cerberus-UA"/>
   <project remote="project-cerberus-ami" revision="7684b8b9c362e46f450223bf36ead45f56b20b3b" name="rios240/Project-Cerberus-AMI" path="Cerberus-FD"/>
 
-  <project remote="libpldm" revision="main" name="rios240/openbmc-libpldm" path="Cerberus-UA/external/openbmc-libpldm"/>
-  <project remote="libpldm" revision="main" name="rios240/openbmc-libpldm" path="Cerberus-FD/external/openbmc-libpldm"/>
+  <project remote="libpldm" revision="e6b03c69bbb5125f0617c1f1e46c9e89f182c6a0" name="rios240/openbmc-libpldm" path="Cerberus-UA/external/openbmc-libpldm"/>
+  <project remote="libpldm" revision="e6b03c69bbb5125f0617c1f1e46c9e89f182c6a0" name="rios240/openbmc-libpldm" path="Cerberus-FD/external/openbmc-libpldm"/>
   <project remote="mbedtls" revision="3f8d78411a26e833db18d9fbde0e2f0baeda87f0" name="mbedtls" path="Cerberus-UA/external/mbedtls-2.17.0"/>
   <project remote="mbedtls" revision="3f8d78411a26e833db18d9fbde0e2f0baeda87f0" name="mbedtls" path="Cerberus-FD/external/mbedtls-2.17.0"/>
 

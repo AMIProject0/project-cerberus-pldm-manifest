@@ -5,8 +5,8 @@
   <remote fetch="ssh://git@github.com" name="libpldm"/>
   <remote fetch="https://github.com/ARMmbed" name="mbedtls"/>
 
-  <project remote="project-cerberus-ami" revision="6c0b42c757edc38d37986b78f7380d143e8c30cc" name="rios240/Project-Cerberus-AMI" path="Cerberus-UA"/>
-  <project remote="project-cerberus-ami" revision="dd7b9ad579b7cb94d857765315d4fd653f33a548" name="rios240/Project-Cerberus-AMI" path="Cerberus-FD"/>
+  <project remote="project-cerberus-ami" revision="a22d540c08567ad3b2d049ca819fd58ce1d0a7b9" name="rios240/Project-Cerberus-AMI" path="Cerberus-UA"/>
+  <project remote="project-cerberus-ami" revision="2b81f37a217643bd90eb79694436652fcfeee337" name="rios240/Project-Cerberus-AMI" path="Cerberus-FD"/>
 
   <project remote="libpldm" revision="e6b03c69bbb5125f0617c1f1e46c9e89f182c6a0" name="rios240/openbmc-libpldm" path="Cerberus-UA/external/openbmc-libpldm"/>
   <project remote="libpldm" revision="e6b03c69bbb5125f0617c1f1e46c9e89f182c6a0" name="rios240/openbmc-libpldm" path="Cerberus-FD/external/openbmc-libpldm"/>

@@ -1,8 +1,11 @@
 # Project Cerberus
 
 This repository is the container for manifest files used to get Cerberus source code using the repo tool.
-For source code and project details, go to the main Project Cerberus repository at https://github.com/Azure/Project-Cerberus.
+For source code and project details, go to the AMI Project Cerberus repository at https://github.com/rios240/Project-Cerberus-AMI.
 
+## PLDM Firmware Update and Core Unit Testing
+This manifest will download two versions of Cerberus, one operating as the Update Agent (UA) which will run only the UA's testing suite, and the other operating 
+as the Firmware Device (FD) which will run only the FD's testing suite. Both the UA and FD testing suites must be run in unison for success. 
 
 ## Contributing
 

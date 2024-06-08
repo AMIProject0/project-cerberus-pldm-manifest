@@ -4,8 +4,8 @@ This repository is the container for manifest files used to get Cerberus source 
 For source code and project details, go to the AMI Project Cerberus repository at https://github.com/rios240/Project-Cerberus-AMI.
 
 ## PLDM Firmware Update and Core Unit Testing
-This manifest will download two versions of Cerberus, one operating as the Update Agent (UA) which will run only the UA's testing suite, and the other operating 
-as the Firmware Device (FD) which will run only the FD's testing suite. Both the UA and FD testing suites must be run in unison for success. 
+This manifest will download two versions of Cerberus: one functioning as the Update Agent (UA), which will run only the UA's testing suite, 
+and the other as the Firmware Device (FD), which will run only the FD's testing suite. Both testing suites must be run simultaneously for success.
 
 ## Contributing
 

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote fetch="https://github.com/rios240" name="project-cerberus-ami"/>
-  <remote fetch="https://github.com/rios240" name="libpldm"/>
+  <remote fetch="https://github.com/AMIProject0" name="project-cerberus-pldm"/>
+  <remote fetch="https://github.com/AMIProject0" name="libpldm"/>
   <remote fetch="https://github.com/ARMmbed" name="mbedtls"/>
 
-  <project remote="project-cerberus-ami" revision="ami/pldm/firmware_update/ua" name="Project-Cerberus-AMI" path="Cerberus-UA"/>
-  <project remote="project-cerberus-ami" revision="ami/pldm/firmware_update/fd" name="Project-Cerberus-AMI" path="Cerberus-FD"/>
+  <project remote="project-cerberus-pldm" revision="ami/pldm/firmware_update/ua" name="Project-Cerberus-PLDM" path="Cerberus-UA"/>
+  <project remote="project-cerberus-pldm" revision="ami/pldm/firmware_update/fd" name="Project-Cerberus-PLDM" path="Cerberus-FD"/>
   
   <project remote="libpldm" revision="main" name="openbmc-libpldm" path="Cerberus-UA/external/openbmc-libpldm"/>
   <project remote="libpldm" revision="main" name="openbmc-libpldm" path="Cerberus-FD/external/openbmc-libpldm"/>
